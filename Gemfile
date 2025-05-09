@@ -4,7 +4,7 @@ gem 'rest-client'
 gem 'yajl-ruby'
 gem 'memcachier'
 gem 'dalli'
-gem 'sinatra'
+gem 'sinatra', '>= 4.0.0'
 
 group :development do
   gem 'heroku'
